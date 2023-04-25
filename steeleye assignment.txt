@@ -1,0 +1,8 @@
+1. Explain what the simple List component does.
+
+The simple List component is a React component that creates an unordered list (ul>) element from a list of items.Each item, consists of a SingleListItem component that displays some text and has a background color that changes depending on whether it's selected or not.
+When the user clicks on an item, the List component updates the selected index and keeps track of it.
+Memorization is a technique used by the List component to prevent unnecessary re-rendering of its child components. The component also has an effect hook that fires whenever the item support changes, and resets the selectedIndex state variable to null.
+The SingleListItem component is passed the necessary props, including the onClickHandler, which sets the state variable selectedIndex to the index of the clicked item.
+
+2&3. code is attached
